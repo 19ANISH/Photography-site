@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<script src="https://kit.fontawesome.com/ff8627bac3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Creating nav bar for navigation -->
+<nav class="navbar">
+	<div class="nav-center">
+		<!-- header of the page -->
+		<div class="nav-header">
+			<a href="index.html" class="nav-logo">
+			<img src="./images/Logo.jpg" height="50rem">
+			</a>
+			<button type="button" class="btn nav-btn">
+				<i class="fas fa-algin fa-bars" style="color: white;"></i>
+			</button>
+		</div>
+		<!-- links for navigation from page to page -->
+		<div class="nav-links">
+			<a href="index.html" class="nav-link" style="text-decoration: none;">Home</a>
+			<a href="about.html" class="nav-link" style="text-decoration: none;">About</a>
+			<a href="post.html" class="nav-link" style="text-decoration: none;">Posts</a>
+			<!--<a href="login.html" class="nav-links" style="text-decoration: none;">Admin Login</a>-->
+			<div class="nav-link contact-link" style="text-decoration: none;">
+			<a href="contact.html" class="btn" style="text-decoration: none; color: white;">Contact</a>	
+			<!-- it will be displayed separately with different styling so we have given separate divs and btn class -->
+			</div>
+		</div>
+	</div>
+</nav>
+<!-- nav bar ends here -->
+<!-- main content of the page starts here -->
+<main class="main-page">
+	<section class="about-page">
+		<article>
+			<h2>Hi! Welcome to my static website</h2>
+			<p>
+				I'm Anish Rajwani, from Solapur, this is my 1st static website created using html,css. I'm a student of Walchand Institute of Technology, Solapur.
+			</p>
+			<p>I hope you like my static photography website</p>
+			<a href="contact.html" class="btn" style="text-decoration: none;">Contact</a>
+		</article>
+		<img src="./images/61.jpg" class="img about-img">
+	</section>
+	<section class="featured-post">
+		<h5 class="featured-title">Some of the good clicks</h5>
+		<div class="posts-list">
+			<!-- single posts -->
+			<a href="./images/27.jpg" target="blank" class="post" style="text-decoration: none;"><img src="./images/27.jpg" class="img post-img"/>
+			<h5>Shoot in 2020</h5>
+			<p>Location Solapur (Captured on Vivo Y1s)</p>
+			</a>
+			<!-- end of single posts -->
+			<!-- single posts -->
+			<a href="./images/29.jpg" target="blank" class="post" style="text-decoration: none;"><img src="./images/29.jpg" class="img post-img"/>
+			<h5>Shoot in 2021</h5>
+			<p>Location Solapur (Captured on Vivo Y31)</p>
+			</a>
+			<!-- end of single posts -->
+		</div>
+		<!-- end of posts list -->
+	</section>
+<!-- end of main content -->
+</main>
+<!-- footer of the page -->
+<footer class="footer-page">
+	<p><span id="date">2022</span> Built By <a style="text-decoration: none; color: #ab68ef;" href="https://github.com/19ANISH" target="blank">Anish</a></p>
+</footer>
+<!-- footer of the page ends here -->
+<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
